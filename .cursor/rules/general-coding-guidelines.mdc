@@ -27,8 +27,12 @@ Naming Convention
 - Don't use cryptic one- or two- letter names for variables that span multiple screens.
 - Use shorter names for variables that span only a few lines.
 - Use capitalization, underscores, and so on in a meaningful way.
-- Append "_" to class members to distinguish them from local variables.
-- Put max ir min in front of the thing being limited.
+- Append "_" to class members to distinguish them from local variables.- Put max ir min in front of the thing being limited.
 - Use words "is", "has", "can" or "should" for boolean variables to make it clear that it's a boolean.
 - Use "first" and "last" for inclusive ranges.
 - Use "begin" and "end" for inclusive/exclusive ranges.
+
+Asthetics
+- If multiple blocks of code are doing similar things, try to give them the same silhouette.
+- Pick a meaning ful order and stick with it. For example, if code mentions A, B and C in one place, don't say B, C and A in another.
+- Use empty lines to break apart large blocks into logical paragraphs.
