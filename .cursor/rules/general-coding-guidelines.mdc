@@ -1,0 +1,30 @@
+---
+description: 
+globs: src/**/*.ts src/**/*.tsx
+alwaysApply: false
+---
+---
+description: Applies general coding rules across all file types to maintain code quality, consistency, and prevent common errors.
+globs: **/*.*
+---
+
+- Always verify information before presenting it. Do not make assumptions or speculate without clear evidence.
+- Make changes file by file and give me a chance to spot mistakes.
+- Never use apologies.
+- Avoid giving feedback about understanding in comments or documentation.
+- Don't suggest whitespace changes.
+- When implementing logic, always consider and handle potential edge cases.
+- Code should be easy to understand.
+- Code should be written to minimize the time it would take for someone else to understand.
+
+
+Naming Convention
+- Choose "specifc" words and avoid "empty" words to be clear and precise. For instance, use words like "fetch" or "download" over "get" depending on the context.
+- Avoid Generic names such as tem and retval unless there's specific reason to use them.
+- Use a name that describes the variable's value.
+- Attach important details to variable names.
+- Use longer names for larger scopes.
+- Don't use cryptic one- or two- letter names for variables that span multiple screens.
+- Use shorter names for variables that span only a few lines.
+- Use capitalization, underscores, and so on in a meaningful way.
+- Append "_" to class members to distinguish them from local variables.
