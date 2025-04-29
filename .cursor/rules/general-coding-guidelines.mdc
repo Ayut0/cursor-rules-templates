@@ -36,3 +36,14 @@ Asthetics
 - If multiple blocks of code are doing similar things, try to give them the same silhouette.
 - Pick a meaning ful order and stick with it. For example, if code mentions A, B and C in one place, don't say B, C and A in another.
 - Use empty lines to break apart large blocks into logical paragraphs.
+
+Comments
+- Don't comment on facts that can be derived quickly from the code itself.
+- Add story for how a constant got its value.
+- Summarize blocks of code with comments so that the reader doesn't get lost in the details.
+- Comments should have a high information-to-space ratio.
+- When you write functions, please add example input, output and parameter to them.
+- Describe a function's behavior with as much precision as is practical.
+- Avoid using words such as "it" and "this" when they can refer to multiple things.
+- State the high-level intent of your code, rather than the obvious details.
+- Use words that pack a lot of information to keep comments brief.
