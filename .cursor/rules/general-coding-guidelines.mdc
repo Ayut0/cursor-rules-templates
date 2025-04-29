@@ -28,3 +28,7 @@ Naming Convention
 - Use shorter names for variables that span only a few lines.
 - Use capitalization, underscores, and so on in a meaningful way.
 - Append "_" to class members to distinguish them from local variables.
+- Put max ir min in front of the thing being limited.
+- Use words "is", "has", "can" or "should" for boolean variables to make it clear that it's a boolean.
+- Use "first" and "last" for inclusive ranges.
+- Use "begin" and "end" for inclusive/exclusive ranges.
