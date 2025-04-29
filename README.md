@@ -1,3 +1,3 @@
 # cursor-rules-templates
 
-All rules for general coding guideline are based on the book "Readable Code"
+All rules for general coding guidelines are based on the book "Readable Code"
