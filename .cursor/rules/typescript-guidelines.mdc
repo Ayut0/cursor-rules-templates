@@ -44,6 +44,6 @@ Use optional properties as less as possible.
 Use `readonly` properties for object types by default.
 [readonly-properties.md](mdc:readonly-properties.md)
 
-Declear return types when declearing top-level functions.
+Declare return types when declaring top-level functions.
 [return-types.md](mdc:return-types.md)
 
